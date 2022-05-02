@@ -1,0 +1,44 @@
+#body {
+    background-color: hsl(212, 45%, 89%);
+    
+}
+
+#white {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    width: 85%;
+    margin: 3rem 1.5rem;
+     }
+
+
+#code-img {
+    width: 90%;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+#margin {
+    margin: 0.5rem 2rem;
+}
+
+#head-margin {
+    font-weight: bold;
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+    font-size: 0.7rem;
+}
+
+#attribute {
+    margin: 1rem 0rem 0;
+}
+
+@media (min-width: 768px) {
+    #white {
+        width: 35%;
+        margin: 20rem auto;
+    }
+}
